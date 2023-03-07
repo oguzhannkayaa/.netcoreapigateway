@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Contact.API.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Contact.API.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contact.API.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contact.API.Infrastructure.dll": {}
+        }
+      },
+      "Contact.API.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Contact.API.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contact.API.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Contact.API.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../../Services/ContactAPI/Contact.API.Infrastructure/Contact.API.Infrastructure.csproj",
+      "msbuildProject": "../../../Services/ContactAPI/Contact.API.Infrastructure/Contact.API.Infrastructure.csproj"
+    },
+    "Contact.API.Model/1.0.0": {
+      "type": "project",
+      "path": "../../../Services/Contact.API/Contact.API.Model/Contact.API.Model.csproj",
+      "msbuildProject": "../../../Services/Contact.API/Contact.API.Model/Contact.API.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Contact.API.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Services\\ContactAPI\\Contact.API.Infrastructure\\Contact.API.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Services\\ContactAPI\\Contact.API.Infrastructure\\Contact.API.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

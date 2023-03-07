@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Contact.API/1.0.0": {
         "dependencies": {
+          "Contact.API.Infrastructure": "1.0.0",
+          "Contact.API.Model": "1.0.0",
+          "Contact.API.Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -60,6 +63,27 @@
             "fileVersion": "6.2.3.0"
           }
         }
+      },
+      "Contact.API.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Contact.API.Model": "1.0.0"
+        },
+        "runtime": {
+          "Contact.API.Infrastructure.dll": {}
+        }
+      },
+      "Contact.API.Model/1.0.0": {
+        "runtime": {
+          "Contact.API.Model.dll": {}
+        }
+      },
+      "Contact.API.Services/1.0.0": {
+        "dependencies": {
+          "Contact.API.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Contact.API.Services.dll": {}
+        }
       }
     }
   },
@@ -110,6 +134,21 @@
       "sha512": "sha512-bCRI87uKJVb4G+KURWm8LQrL64St04dEFZcF6gIM67Zc0Sr/N47EO83ybLMYOvfNdO1DCv8xwPcrz9J/VEhQ5g==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    },
+    "Contact.API.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contact.API.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contact.API.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

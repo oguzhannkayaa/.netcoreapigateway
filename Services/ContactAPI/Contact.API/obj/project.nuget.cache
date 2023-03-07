@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IwdGa7mmaDBCVkivyqSOwfjPoK8FFtXihLV2bH76i3wyqrXo4QsBOb41krZB77WZS4eMI6YEH5yYIxkXE3R5wA==",
+  "dgSpecHash": "oViB4MnIYEUm5hpXmmJqsTpqaZxS0PqgFr54fzQjFspJr/UnBZaNqrxY0pj1+6VKu5VgJjZ0gfDUUAgz51Y94Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Services\\ContactAPI\\Contact.API\\Contact.API.csproj",
   "expectedPackageFiles": [

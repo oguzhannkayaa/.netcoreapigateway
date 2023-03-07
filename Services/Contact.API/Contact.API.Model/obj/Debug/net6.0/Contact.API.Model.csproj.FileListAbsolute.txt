@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\bin\Debug\net6.0\Contact.API.Model.deps.json
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\bin\Debug\net6.0\Contact.API.Model.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\bin\Debug\net6.0\Contact.API.Model.pdb
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\Contact.API.Model.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\Contact.API.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\Contact.API.Model.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\Contact.API.Model.AssemblyInfo.cs
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\Contact.API.Model.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\Contact.API.Model.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\refint\Contact.API.Model.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\Contact.API.Model.pdb
+C:\Users\user\source\repos\GateWay\Microservice\Services\Contact.API\Contact.API.Model\obj\Debug\net6.0\ref\Contact.API.Model.dll

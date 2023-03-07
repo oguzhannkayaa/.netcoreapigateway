@@ -88,6 +88,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Contact.API.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Contact.API.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contact.API.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contact.API.Infrastructure.dll": {}
+        }
+      },
+      "Contact.API.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Contact.API.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contact.API.Model.dll": {}
+        }
+      },
+      "Contact.API.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Contact.API.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contact.API.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contact.API.Services.dll": {}
+        }
       }
     }
   },
@@ -216,10 +252,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Contact.API.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Contact.API.Infrastructure/Contact.API.Infrastructure.csproj",
+      "msbuildProject": "../Contact.API.Infrastructure/Contact.API.Infrastructure.csproj"
+    },
+    "Contact.API.Model/1.0.0": {
+      "type": "project",
+      "path": "../../Contact.API/Contact.API.Model/Contact.API.Model.csproj",
+      "msbuildProject": "../../Contact.API/Contact.API.Model/Contact.API.Model.csproj"
+    },
+    "Contact.API.Services/1.0.0": {
+      "type": "project",
+      "path": "../../../Service/ContactAPI/Contact.API.Services/Contact.API.Services.csproj",
+      "msbuildProject": "../../../Service/ContactAPI/Contact.API.Services/Contact.API.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Contact.API.Infrastructure >= 1.0.0",
+      "Contact.API.Model >= 1.0.0",
+      "Contact.API.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -249,7 +303,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Services\\Contact.API\\Contact.API.Model\\Contact.API.Model.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Services\\Contact.API\\Contact.API.Model\\Contact.API.Model.csproj"
+            },
+            "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Services\\ContactAPI\\Contact.API.Infrastructure\\Contact.API.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Services\\ContactAPI\\Contact.API.Infrastructure\\Contact.API.Infrastructure.csproj"
+            },
+            "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Service\\ContactAPI\\Contact.API.Services\\Contact.API.Services.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\GateWay\\Microservice\\Service\\ContactAPI\\Contact.API.Services\\Contact.API.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -30,3 +30,9 @@ C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\
 C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\obj\Debug\net6.0\Contact.API.pdb
 C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\obj\Debug\net6.0\Contact.API.genruntimeconfig.cache
 C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\obj\Debug\net6.0\ref\Contact.API.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\bin\Debug\net6.0\Contact.API.Infrastructure.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\bin\Debug\net6.0\Contact.API.Model.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\bin\Debug\net6.0\Contact.API.Services.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\bin\Debug\net6.0\Contact.API.Services.pdb
+C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\bin\Debug\net6.0\Contact.API.Model.pdb
+C:\Users\user\source\repos\GateWay\Microservice\Services\ContactAPI\Contact.API\bin\Debug\net6.0\Contact.API.Infrastructure.pdb
