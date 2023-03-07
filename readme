@@ -1,0 +1,5 @@
+Contact.API.Services business tarafýndanki iþi yapýcak servisler yer alýcak.
+Contact.API.Infrascture interfaceleri oluþturmak için yapýlan yer.
+Contact.API APIGateway ile iletiþimi saðlayacak yer.
+
+APIGateway istekleri yönlendiricek yer.
