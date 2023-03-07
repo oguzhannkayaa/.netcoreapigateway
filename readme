@@ -3,4 +3,14 @@ Contact.API.Infrascture interfaceleri oluþturmak için yapýlan yer.
 Contact.API APIGateway ile iletiþimi saðlayacak yer.
 Contact.API.Model modelimizin oluþturulduðu alan.
 
+Contact.API içerisinde istek yaparak o X port içerisinde oradan Contact bilgilerini al veya Y port içerisinde Reservation bilgilerini al diye 
+bir APIGateway kurulacak.
+Dýþ dünyadakilerin bu portlarý bilmesine gerek yok.
+
+Ocelot library kullanýlýyor. APIGateway için. Ocelot'u configure edebilmek için JSON dosyasý gerekiyor.
+
+Ocelot.json
+	UpstreamPathTemplate dýþarýdan istek yapýlýrken gelen path,
+	DownstreamPathTemplate ise UpstreamPathTemplate'e gelen istekleri göndericeði yer
+
 APIGateway istekleri yönlendiricek yer.

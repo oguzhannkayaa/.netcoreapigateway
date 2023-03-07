@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\bin\Debug\net6.0\Reservation.API.Models.deps.json
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\bin\Debug\net6.0\Reservation.API.Models.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\bin\Debug\net6.0\Reservation.API.Models.pdb
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\Reservation.API.Models.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\Reservation.API.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\Reservation.API.Models.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\Reservation.API.Models.AssemblyInfo.cs
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\Reservation.API.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\Reservation.API.Models.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\refint\Reservation.API.Models.dll
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\Reservation.API.Models.pdb
+C:\Users\user\source\repos\GateWay\Microservice\Services\ReservationAPI\Reservation.API.Models\obj\Debug\net6.0\ref\Reservation.API.Models.dll
