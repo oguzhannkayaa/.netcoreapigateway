@@ -1,15 +1,15 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/reservation/{Id}",
-      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/Reservation/{id}",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 9001
         }
       ],
-      "UpstreamPathTemplate": "/r/{Id}",
+      "UpstreamPathTemplate": "/r/{id}",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ]
